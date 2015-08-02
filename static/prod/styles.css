@@ -72,7 +72,7 @@ a {
   a:hover {
     color: #F5AB35; }
 
-nav li {
+.list-inline li {
   display: inline-block;
   padding: 25px; }
 
