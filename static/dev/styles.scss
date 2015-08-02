@@ -1,1 +1,60 @@
 @import 'reset';
+
+$background-color: #2C3E50;
+$text-color: #fff;
+$link-color: #fff;
+$footer-color: #000;
+
+body {
+    font-size: 100%;
+    font-family: 'Lato', sans-serif;
+    background-color: $background-color;
+    color: $text-color;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+}
+
+h1,
+h3 {
+    margin-bottom: 12px;
+}
+
+h1 {
+    font-size: 175%;
+}
+
+h3 {
+    font-size: 150%;
+    letter-spacing: 0.10em;
+}
+
+nav {
+    li {
+        display: inline-block;
+        padding: 25px;
+
+        a {
+            color: $link-color;
+            text-decoration: none;
+        }
+    }
+}
+
+small {
+    font-size: 75%;
+}
+
+footer {
+    color: $text-color;
+    background-color: $footer-color;
+    position: fixed;
+    width: 100%;
+    padding: 1em;
+    margin-top: 100px;
+    bottom: 0;
+    left: 0;
+}
