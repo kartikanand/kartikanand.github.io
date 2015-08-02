@@ -59,19 +59,29 @@ h3 {
 h1 {
   font-size: 175%; }
 
+h2 {
+  font-size: 150%; }
+
 h3 {
-  font-size: 150%;
+  font-size: 125%;
   letter-spacing: 0.10em; }
+
+a {
+  color: #F4D03F;
+  text-decoration: none; }
+  a:hover {
+    color: #F5AB35; }
 
 nav li {
   display: inline-block;
   padding: 25px; }
-  nav li a {
-    color: #fff;
-    text-decoration: none; }
 
-small {
-  font-size: 75%; }
+section {
+  display: none;
+  width: 75%;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center; }
 
 footer {
   color: #fff;
@@ -81,6 +91,9 @@ footer {
   padding: 1em;
   margin-top: 100px;
   bottom: 0;
-  left: 0; }
+  left: 0;
+  text-align: center; }
+  footer small {
+    font-size: 75%; }
 
 /*# sourceMappingURL=styles.css.map */
