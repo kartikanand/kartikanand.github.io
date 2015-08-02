@@ -52,8 +52,7 @@ body {
   text-align: center;
   padding: 50px; }
 
-h1,
-h3 {
+h1 {
   margin-bottom: 12px; }
 
 h1 {
@@ -64,7 +63,8 @@ h2 {
 
 h3 {
   font-size: 125%;
-  letter-spacing: 0.10em; }
+  letter-spacing: 0.10em;
+  margin-bottom: 50px; }
 
 a {
   color: #F4D03F;
@@ -74,7 +74,8 @@ a {
 
 .list-inline li {
   display: inline-block;
-  padding: 25px; }
+  padding-left: 25px;
+  padding-right: 25px; }
 
 section {
   display: none;

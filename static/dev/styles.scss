@@ -19,8 +19,7 @@ body {
     padding: 50px;
 }
 
-h1,
-h3 {
+h1 {
     margin-bottom: 12px;
 }
 
@@ -35,6 +34,7 @@ h2 {
 h3 {
     font-size: 125%;
     letter-spacing: 0.10em;
+    margin-bottom: 50px;
 }
 
 a {
@@ -49,7 +49,8 @@ a {
 .list-inline {
     li {
         display: inline-block;
-        padding: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 }
 
