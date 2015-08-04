@@ -9,7 +9,6 @@ $social-icon-color: #222;
 
 * {
     box-sizing: border-box;
-
 }
 
 body {
@@ -19,19 +18,17 @@ body {
     color: $text-color;
 }
 
-.container {
+header {
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    padding: 50px;
-}
-
-h1 {
-    margin-bottom: 12px;
+    padding: 25px 10px;
+    margin-bottom: 50px;
 }
 
 h1 {
     font-size: 175%;
+    margin-bottom: 12px;
 }
 
 h2 {
@@ -70,8 +67,8 @@ p {
 
 section {
     width: 100%;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: 0 auto;
     text-align: center;
 }
@@ -119,5 +116,37 @@ footer {
 
     small {
         font-size: 75%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    header {
+        margin-bottom: 25px;
+    }
+
+    p {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    header {
+        margin-bottom: 0px;
+    }
+
+    p {
+        width: 75%;
+    }
+
+    .list-inline {
+        li {
+            display: inline-block;
+            padding-left: 3%;
+            padding-right: 3%;
+            
+            &:last-child {
+                margin-top: 15px;
+            }
+        }
     }
 }
