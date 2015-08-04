@@ -15,6 +15,7 @@ body {
 }
 
 .container {
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     padding: 50px;
@@ -46,6 +47,14 @@ a {
     }
 }
 
+p {
+    margin: 0 auto;
+    text-align: justify;
+    width: 50%;
+    line-height: 1.5em;
+    margin-bottom: 12px;
+}
+
 .list-inline {
     li {
         display: inline-block;
@@ -55,11 +64,13 @@ a {
 }
 
 section {
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.hidden-section {
     display: none;
-    width: 75%;
-    margin: 0 auto;
-    padding: 50px;
-    text-align: center;
 }
 
 .social-icons {
