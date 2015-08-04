@@ -1,10 +1,11 @@
 @import 'reset';
 
-$background-color: #2C3E50;
-$text-color: #fff;
-$link-color: #F4D03F;
-$link-color-hover: #F5AB35;
-$footer-color: #000;
+$background-color: #fff;
+$text-color: #333;
+$link-color: #c0392b;
+$link-color-hover: #f1c40f;
+$footer-color: #222;
+$social-icon-color: #222;
 
 body {
     font-size: 100%;
@@ -33,7 +34,6 @@ h2 {
 
 h3 {
     font-size: 125%;
-    letter-spacing: 0.10em;
     margin-bottom: 50px;
 }
 
@@ -42,7 +42,7 @@ a {
     text-decoration: none;
 
     &:hover {
-        color: $link-color-hover;
+        color: $link-color + #333;
     }
 }
 
@@ -61,6 +61,33 @@ section {
     padding: 50px;
     text-align: center;
 }
+
+.social-icons {
+    a {
+        color: $social-icon-color;
+        
+        /*&:hover {
+            animation-duration: 1s;
+            animation-name: slidein;
+        }*/
+    }
+}
+
+/*@keyframes slidein {
+    from {
+        margin-bottom: 0px;
+        font-size: 100%;
+    }
+  
+    75% {
+        font-size: 150%;
+      }
+
+    to {
+        margin-bottom: 0px;
+        font-size: 100%;
+    }
+}*/
 
 footer {
     color: $text-color;

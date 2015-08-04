@@ -44,8 +44,8 @@ table {
 body {
   font-size: 100%;
   font-family: 'Lato', sans-serif;
-  background-color: #2C3E50;
-  color: #fff; }
+  background-color: #fff;
+  color: #333; }
 
 .container {
   margin: 0 auto;
@@ -63,14 +63,13 @@ h2 {
 
 h3 {
   font-size: 125%;
-  letter-spacing: 0.10em;
   margin-bottom: 50px; }
 
 a {
-  color: #F4D03F;
+  color: #c0392b;
   text-decoration: none; }
   a:hover {
-    color: #F5AB35; }
+    color: #f36c5e; }
 
 .list-inline li {
   display: inline-block;
@@ -84,9 +83,31 @@ section {
   padding: 50px;
   text-align: center; }
 
+.social-icons a {
+  color: #222;
+  /*&:hover {
+      animation-duration: 1s;
+      animation-name: slidein;
+  }*/ }
+
+/*@keyframes slidein {
+    from {
+        margin-bottom: 0px;
+        font-size: 100%;
+    }
+  
+    75% {
+        font-size: 150%;
+      }
+
+    to {
+        margin-bottom: 0px;
+        font-size: 100%;
+    }
+}*/
 footer {
-  color: #fff;
-  background-color: #000;
+  color: #333;
+  background-color: #222;
   position: fixed;
   width: 100%;
   padding: 1em;
