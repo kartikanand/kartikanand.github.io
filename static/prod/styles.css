@@ -41,6 +41,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+* {
+  box-sizing: border-box; }
+
 body {
   font-size: 100%;
   font-family: 'Lato', sans-serif;
@@ -87,14 +90,12 @@ p {
 section {
   width: 100%;
   padding-left: 50px;
-  padding-right: 50px; }
+  padding-right: 50px;
+  margin: 0 auto;
+  text-align: center; }
 
 .hidden-section {
-  display: none;
-  width: 100%;
-  margin: 0 auto;
-  padding: 50px;
-  text-align: center; }
+  display: none; }
 
 .social-icons a {
   color: #222;

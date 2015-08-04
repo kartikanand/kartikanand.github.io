@@ -7,6 +7,11 @@ $link-color-hover: #f1c40f;
 $footer-color: #222;
 $social-icon-color: #222;
 
+* {
+    box-sizing: border-box;
+
+}
+
 body {
     font-size: 100%;
     font-family: 'Lato', sans-serif;
@@ -67,20 +72,17 @@ section {
     width: 100%;
     padding-left: 50px;
     padding-right: 50px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .hidden-section {
     display: none;
-    width: 100%;
-    margin: 0 auto;
-    padding: 50px;
-    text-align: center;
 }
 
 .social-icons {
     a {
         color: $social-icon-color;
-        
         /*&:hover {
             animation-duration: 1s;
             animation-name: slidein;
