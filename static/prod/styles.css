@@ -90,7 +90,11 @@ section {
   padding-right: 50px; }
 
 .hidden-section {
-  display: none; }
+  display: none;
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center; }
 
 .social-icons a {
   color: #222;

@@ -7,6 +7,8 @@ window.onload = function () {
 }
 
 function hideSections () {
+    document.getElementById('section-0').style.display = "none";
+    
     var sections = document.getElementsByClassName("hidden-section");
 
     for (var i=0; i<sections.length; i++) {
