@@ -121,7 +121,7 @@ section {
 footer {
   color: #333;
   background-color: #222;
-  position: fixed;
+  position: absolute;
   width: 100%;
   padding: 1em;
   margin-top: 100px;
