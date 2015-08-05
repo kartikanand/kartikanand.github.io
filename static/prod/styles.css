@@ -44,11 +44,32 @@ table {
 * {
   box-sizing: border-box; }
 
+html,
 body {
   font-size: 100%;
   font-family: 'Lato', sans-serif;
   background-color: #fff;
-  color: #333; }
+  color: #333;
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+.wrapper {
+  min-height: 100%;
+  position: relative; }
+
+footer {
+  height: 50px;
+  color: #333;
+  background-color: #222;
+  position: absolute;
+  width: 100%;
+  padding: 1em;
+  bottom: 0;
+  left: 0;
+  text-align: center; }
+  footer small {
+    font-size: 75%; }
 
 header {
   width: 100%;
@@ -118,18 +139,8 @@ section {
         font-size: 100%;
     }
 }*/
-footer {
-  color: #333;
-  background-color: #222;
-  position: absolute;
-  width: 100%;
-  padding: 1em;
-  margin-top: 100px;
-  bottom: 0;
-  left: 0;
-  text-align: center; }
-  footer small {
-    font-size: 75%; }
+.content {
+  padding-bottom: 75px; }
 
 @media screen and (max-width: 640px) {
   header {
