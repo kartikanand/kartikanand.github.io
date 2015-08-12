@@ -52,10 +52,7 @@ body {
   color: #333;
   height: 100%;
   margin: 0;
-  padding: 0; }
-
-.wrapper {
-  min-height: 100%;
+  padding: 0;
   position: relative; }
 
 footer {
@@ -113,6 +110,8 @@ section {
   padding-right: 10px;
   margin: 0 auto;
   text-align: center; }
+  section ul li {
+    margin-bottom: 22px; }
 
 .hidden-section {
   display: none; }
