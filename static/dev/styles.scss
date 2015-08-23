@@ -119,13 +119,25 @@ p {
     display: none;
 }
 
+@keyframes zoom {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+}
+
 .social-icons {
     a {
         color: $social-icon-color;
-        /*&:hover {
+
+        &:hover {
             animation-duration: 1s;
-            animation-name: slidein;
-        }*/
+            animation-name: zoom;
+            animation-timing-function: ease out;
+            animation-iteration-count: infinite;
+        }
     }
 }
 

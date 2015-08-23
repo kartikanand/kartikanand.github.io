@@ -1,4 +1,4 @@
-var onDisplay = document.getElementById('section-0');
+var currentDisplayElement = document.getElementById('section-0');
 
 window.onload = function () {
 
@@ -11,8 +11,8 @@ window.onload = function () {
 function addEventListenerToSection (buttons, i) {
     buttons[i].addEventListener('click', function (event) {
         event.preventDefault();
-        onDisplay.style.display = 'none';
+        currentDisplayElement.style.display = 'none';
         document.getElementById('section-'+i).style.display = "block";
-        onDisplay = document.getElementById('section-'+i);
+        currentDisplayElement = document.getElementById('section-'+i);
     }, false);
 }

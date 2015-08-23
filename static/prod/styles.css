@@ -126,12 +126,18 @@ p {
 .hidden-section {
   display: none; }
 
+@keyframes zoom {
+  0%, 100% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.5); } }
 .social-icons a {
-  color: #333;
-  /*&:hover {
-      animation-duration: 1s;
-      animation-name: slidein;
-  }*/ }
+  color: #333; }
+  .social-icons a:hover {
+    animation-duration: 1s;
+    animation-name: zoom;
+    animation-timing-function: ease out;
+    animation-iteration-count: infinite; }
 
 .content {
   padding-bottom: 75px; }
