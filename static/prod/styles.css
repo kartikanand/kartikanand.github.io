@@ -47,17 +47,29 @@ table {
 html,
 body {
   font-size: 100%;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   background-color: #fff;
-  color: #333;
+  color: #655643;
   height: 100%;
+  width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 0; }
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
   position: relative; }
+
+.container {
+  margin: 0 auto;
+  padding: 25px;
+  width: 50%; }
+
+.text-center {
+  text-align: center; }
 
 footer {
   height: 50px;
-  color: #333;
   background-color: #222;
   position: absolute;
   width: 100%;
@@ -65,37 +77,37 @@ footer {
   bottom: 0;
   left: 0;
   text-align: center; }
-  footer small {
-    font-size: 75%; }
+  footer a {
+    color: #aaa; }
+    footer a:hover {
+      color: #fff; }
 
 header {
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  padding: 25px 10px;
-  margin-bottom: 50px; }
+  padding: 25px;
+  margin-bottom: 25px; }
 
 h1 {
   font-size: 175%;
-  margin-bottom: 12px; }
-
-h2 {
-  font-size: 150%; }
+  margin-bottom: 25px;
+  text-decoration: underline; }
 
 h3 {
   font-size: 125%;
-  margin-bottom: 50px; }
+  margin-bottom: 25px; }
 
 a {
-  color: #c0392b;
-  text-decoration: none; }
+  color: #333;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold; }
   a:hover {
-    color: #f36c5e; }
+    color: #525252;
+    text-decoration: underline; }
 
 p {
-  margin: 0 auto;
-  text-align: justify;
-  width: 50%;
   line-height: 1.5em;
   margin-bottom: 12px; }
 
@@ -104,40 +116,23 @@ p {
   padding-left: 25px;
   padding-right: 25px; }
 
-section {
-  width: 100%;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin: 0 auto;
-  text-align: center; }
-  section ul li {
-    margin-bottom: 22px; }
+.project {
+  padding-bottom: 25px;
+  border-bottom: solid 1px #ccc;
+  margin-bottom: 22px; }
+  .project h3 a {
+    color: #daa019; }
 
 .hidden-section {
   display: none; }
 
 .social-icons a {
-  color: #222;
+  color: #333;
   /*&:hover {
       animation-duration: 1s;
       animation-name: slidein;
   }*/ }
 
-/*@keyframes slidein {
-    from {
-        margin-bottom: 0px;
-        font-size: 100%;
-    }
-  
-    75% {
-        font-size: 150%;
-      }
-
-    to {
-        margin-bottom: 0px;
-        font-size: 100%;
-    }
-}*/
 .content {
   padding-bottom: 75px; }
 
@@ -145,14 +140,14 @@ section {
   header {
     margin-bottom: 25px; }
 
-  p {
+  .container {
     width: 75%; } }
 @media screen and (max-width: 360px) {
   header {
     margin-bottom: 0px; }
 
-  p {
-    width: 75%; }
+  .container {
+    width: 100%; }
 
   .list-inline li {
     display: inline-block;
