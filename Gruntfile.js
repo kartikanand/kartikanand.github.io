@@ -17,11 +17,17 @@ module.exports = function(grunt) {
                 src: 'static/prod/css/font-awesome.css',
                 dest: 'static/prod/css/font-awesome.min.css'
             }
-
         },
         watch: {
             options: {
                 livereload: true,
+            },
+            src: {
+                files: ['index.html'],
+                tasks: []
+            },
+            js: {
+                files: ['static/dev/js/main.js'],
             },
             css: {
             	files: ['static/dev/css/styles.scss', 'index.html'],
@@ -34,5 +40,5 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-sass');
 
-	grunt.registerTask('default', ['cssmin:font_awesome']);
+	grunt.registerTask('default', ['watch']);
 };
