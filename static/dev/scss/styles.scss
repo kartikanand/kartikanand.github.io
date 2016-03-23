@@ -1,125 +1,6 @@
 @import 'reset';
-
-$background-color: #fff;
-$text-color: #655643;
-$link-color: #333;
-$link-color-hover: lighten($link-color, 12);
-$footer-color: #222;
-$social-icon-color: #333;
-$project-title-color: darken(#E6AC27, 5);
-
-* {
-    box-sizing: border-box;
-}
-
-html,
-body {
-    font-size: 100%;
-    font-family: 'Quicksand', sans-serif;
-    background-color: $background-color;
-    color: $text-color;
-    height: 100%;
-    width: 100%;
-    margin:0;
-    padding:0;
-}
-
-.wrapper {
-    width: 100%;
-    min-height: 100%;
-    position: relative;
-}
-
-.container {
-    margin: 0 auto;
-    padding: 25px;
-    width: 50%;
-}
-
-.text-center {
-    text-align: center;
-}
-
-footer {
-    height: 50px;
-    background-color: $footer-color;
-    position: absolute;
-    width: 100%;
-    padding: 1em;
-    bottom: 0;
-    left: 0;
-    text-align: center;
-
-    a {
-        color: #aaa;
-
-        &:hover {
-            color: #fff;
-        }
-    }
-}
-
-header {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 25px;
-    margin-bottom: 25px;
-}
-
-h1 {
-    font-size: 175%;
-    margin-bottom: 25px;
-    text-decoration: underline;
-}
-
-h3 {
-    font-size: 125%;
-    margin-bottom: 25px;
-}
-
-a {
-    color: $link-color;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-
-    &:hover {
-        color: $link-color-hover;
-        text-decoration: underline;
-    }
-}
-
-p {
-    line-height: 1.5em;
-    margin-bottom: 12px;
-}
-
-blockquote {
-    line-height: 1.5em;
-    background-color: #eee;
-    padding: 10px;
-    padding-bottom: 2em;
-    font-style: italic;
-    border-right: 7px solid #ccc;
-    position: relative;
-
-    cite {
-        position: absolute;
-        bottom: 0;
-        right: 10px;
-        font-size: 75%;
-        font-style: normal;
-    }
-}
-
-.list-inline {
-    li {
-        display: inline-block;
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-}
+@import 'variables';
+@import 'components';
 
 .project {
     padding-bottom: 25px;
@@ -131,10 +12,6 @@ blockquote {
             color: $project-title-color;
         }
     }
-}
-
-.hidden-section {
-    display: none;
 }
 
 @keyframes zoom {

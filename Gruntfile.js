@@ -1,21 +1,27 @@
 module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
+        staticDir: 'static/',
+        devDir: '<%= staticDir %>dev/',
+        prodDir: '<%= staticDir %>prod/',
         sass: {
             dist: {
             	files: {
-            		'static/prod/css/styles.css': 'static/dev/css/styles.scss'
+            		'<%= devDir %>css/styles.css': '<%= devDir %>scss/styles.scss'
             	}
             }
         },
         cssmin: {
         	css:{
-        		src: 'static/prod/css/styles.css',
-        		dest: 'static/prod/css/styles.min.css'
-        	},
-            font_awesome: {
-                src: 'static/prod/css/font-awesome.css',
-                dest: 'static/prod/css/font-awesome.min.css'
+        		src: '<%= devDir %>css/styles.css',
+        		dest: '<%= prodDir %>css/styles.min.css'
+        	}
+        },
+        uglify: {
+            js: {
+                files: {
+                    '<%= prodDir %>js/main.min.js': ['<%= devDir %>js/main.js']
+                }    
             }
         },
         watch: {
@@ -27,10 +33,11 @@ module.exports = function(grunt) {
                 tasks: []
             },
             js: {
-                files: ['static/dev/js/main.js'],
+                files: ['<%= devDir %>js/main.js'],
+                tasks: ['uglify']
             },
             css: {
-            	files: ['static/dev/css/styles.scss', 'index.html'],
+            	files: ['<%= devDir %>scss/styles.scss', 'index.html'],
             	tasks: ['sass', 'cssmin']
             }
         }
@@ -39,6 +46,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
 
 	grunt.registerTask('default', ['watch']);
 };

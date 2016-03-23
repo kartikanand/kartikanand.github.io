@@ -131,15 +131,15 @@ blockquote {
   padding-left: 25px;
   padding-right: 25px; }
 
+.hidden {
+  display: none; }
+
 .project {
   padding-bottom: 25px;
   border-bottom: solid 1px #ccc;
   margin-bottom: 22px; }
   .project h3 a {
     color: #daa019; }
-
-.hidden-section {
-  display: none; }
 
 @keyframes zoom {
   0%, 100% {
