@@ -3,7 +3,7 @@
     var changeSection = function () {
         var currentPath = window.location.hash;
 
-        var targetElementId = currentPath.split('/')[1];
+        var targetElementId = currentPath.replace(/^#\/?|\/$/g, '').split('/');
         if (targetElementId) {
             targetElement = document.getElementById(targetElementId);
         } else {
@@ -16,7 +16,7 @@
         targetElement.style.display = 'block';
         currentDisplayElement.style.display = 'none';
         currentDisplayElement = targetElement;        
-    }
+    };
 
     window.onhashchange = changeSection;
     window.onload = changeSection;
