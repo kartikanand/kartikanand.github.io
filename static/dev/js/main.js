@@ -1,21 +1,23 @@
 (function () {
+    var currentDisplayElement = document.getElementById('home');
+    var changeSection = function () {
+        var currentPath = window.location.hash;
 
-    var currentDisplayElement = document.getElementById('section-0');
-
-    window.onload = function () {
-        var buttons = document.getElementsByClassName('btn');
-        for (var i=0; i<buttons.length; i++) {
-            addEventListenerToSection(buttons, i);
+        var targetElementId = currentPath.split('/')[1];
+        if (targetElementId) {
+            targetElement = document.getElementById(targetElementId);
+        } else {
+            targetElement = document.getElementById('home');
         }
+
+        if (!targetElement) return;
+        if (currentDisplayElement == targetElement) return;
+
+        targetElement.style.display = 'block';
+        currentDisplayElement.style.display = 'none';
+        currentDisplayElement = targetElement;        
     }
 
-    function addEventListenerToSection (buttons, i) {
-        buttons[i].addEventListener('click', function (event) {
-            event.preventDefault();
-            currentDisplayElement.style.display = 'none';
-            document.getElementById('section-'+i).style.display = "block";
-            currentDisplayElement = document.getElementById('section-'+i);
-        }, false);
-    }
-
-}(window));
+    window.onhashchange = changeSection;
+    window.onload = changeSection;
+}());

@@ -14,64 +14,12 @@
     }
 }
 
-@keyframes zoom {
-    0%, 100% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.5);
-    }
-}
-
 .social-icons {
     a {
         color: $social-icon-color;
         animation-duration: 1s;
         animation-name: zoom;
         animation-timing-function: ease-in-out;
-
-        /*&:hover {
-            position: relative;
-            padding-bottom: 20px;
-
-            &:after {
-                display: inline-block;
-                font-size: 75%;
-                text-align: center;
-                vertical-align: center;
-                line-height: 1em;
-                position: absolute;
-                bottom: -2px;
-                height: 1em;
-                background-color: #E6AC27;
-                padding: 0.25em;
-            }
-
-            &[data-title="facebook"]:after {
-                content: "facebook";
-                left: -1em;
-            }
-            &[data-title="mail"]:after {
-                content: "mail";
-                left: 0;
-            }
-            &[data-title="reddit"]:after {
-                content: "reddit";
-                left: 0;
-            }
-            &[data-title="linkedin"]:after {
-                content: "linkedin";
-                left: -1em;
-            }
-            &[data-title="github"]:after {
-                content: "github";
-                left: -1em;
-            }
-            &[data-title="stackoverflow"]:after {
-                content: "stackoverflow";
-                left: -2em;
-            }
-        }*/
     }
 }
 
