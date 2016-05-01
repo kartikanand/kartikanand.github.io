@@ -1,3 +1,7 @@
+---
+# Comment
+---
+
 @import 'reset';
 @import 'variables';
 @import 'components';
@@ -14,13 +18,10 @@
     }
 }
 
-.social-icons {
-    a {
-        color: $social-icon-color;
-        animation-duration: 1s;
-        animation-name: zoom;
-        animation-timing-function: ease-in-out;
-    }
+.social-icon {
+    fill: $social-icon-color;
+    height: 32px;
+    width: 32px;
 }
 
 .content {
@@ -33,7 +34,7 @@
     }
 
     .container {
-        width: 75%;
+        width: 100%;
     }
 }
 
@@ -44,6 +45,8 @@
 
     .container {
         width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     .list-inline {

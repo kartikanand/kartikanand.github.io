@@ -3,10 +3,15 @@
     var changeSection = function () {
         var currentPath = window.location.hash;
 
-        var targetElementId = currentPath.replace(/^#\/?|\/$/g, '').split('/');
+        var targetElementId = currentPath.replace(/^#\/?|\/$/g, '').split('/')[0];
+
+        console.log(targetElementId);
+
         if (targetElementId) {
+            console.log("true");
             targetElement = document.getElementById(targetElementId);
         } else {
+            console.log("false");
             targetElement = document.getElementById('home');
         }
 

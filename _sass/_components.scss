@@ -22,8 +22,8 @@ body {
 
 .container {
     margin: 0 auto;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
     width: 50%;
 }
 
@@ -47,6 +47,13 @@ footer {
         &:hover {
             color: #fff;
         }
+    }
+}
+
+nav {
+    li {
+        padding-left: 3px;
+        padding-right: 3px;
     }
 }
 
@@ -107,9 +114,12 @@ blockquote {
 .list-inline {
     li {
         display: inline-block;
-        padding-left: 25px;
-        padding-right: 25px;
     }
+}
+
+.social {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .hidden {
