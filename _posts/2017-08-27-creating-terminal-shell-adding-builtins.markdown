@@ -16,7 +16,7 @@ description: Adding builtins to our terminal shell
 
 > This post is in continuation to to our series on creating a terminal shell. You
 > can checkout the first post
-[here](https://medium.com/@exqu17/creating-a-terminal-shell-a7223333a933). In
+[here]({% post_url 2017-08-13-creating-terminal-shell %}). In
 this post, I’ll show how to add builtin commands to our shell.
 
 Specifically, we’ll be tackling the `cd` builtin (A command provided by the

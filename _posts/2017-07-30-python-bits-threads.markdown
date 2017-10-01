@@ -16,11 +16,11 @@ description: Adding threads to our Python Imgur album downloader
 ![](https://cdn-images-1.medium.com/max/1600/1*QizxjQI0lGert9Fv6q3Vfw.jpeg)
 <span class="figcaption_hack">Intel Pentium 4 was the first desktop CPU with Hyper Threading technology</span>
 
-> *This is the second in the series of Python blog posts I’m writing, you can find
+> This is the second in the series of Python blog posts I’m writing, you can find
 > the first one
-*[here](https://medium.com/@exqu17/python-bits-writing-an-imgur-album-downloader-f94af29a2ea3)*.
-In this particular one we’ll add threads to our Imgur Album downloader,
-hopefully making it a tad bit faster than before.*
+> [here]({% post_url 2017-07-17-python-bits-imgur-downloader %}).
+> In this particular one we’ll add threads to our Imgur Album downloader,
+> hopefully making it a tad bit faster than before.
 
 First of, you must be wondering, due to the infamous
 [GIL](https://wiki.python.org/moin/GlobalInterpreterLock)(in

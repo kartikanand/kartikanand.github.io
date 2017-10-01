@@ -14,11 +14,11 @@ description: Adding the functionality of redirecting streams to our terminal she
 
 ![](https://cdn-images-1.medium.com/max/1600/1*4yJRZhzVNkJGgnOUhxSOwQ.png)
 
-*This post is in continuation to to our series on creating a terminal shell. You
-can checkout the first post
-*[here](https://medium.com/@exqu17/creating-a-terminal-shell-a7223333a933)*. In
-this post, we’ll add the ability to redirect streams for the programs we run
-through our terminal shell.*
+> This post is in continuation to to our series on creating a terminal shell. You
+> can checkout the first post
+> [here]({% post_url 2017-08-13-creating-terminal-shell %}). In
+> this post, we’ll add the ability to redirect streams for the programs we run
+> through our terminal shell.*
 
 In this post we’ll add another important functionality present in almost all
 terminal shells, the ability to redirect streams — `stdin`, `stdout`, and
