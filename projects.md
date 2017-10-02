@@ -28,6 +28,8 @@ title: Projects
 
 [Github Link](https://github.com/kartikanand/imgur-downloader)
 
+---
+
 ### [Eat Out](http://eat-out.herokuapp.com/)
 
 > Finding random places to eat around you!  
