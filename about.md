@@ -13,7 +13,7 @@ I like to make silly side projects from time to time, particularly to learn new 
 
 You may contact me through the below mentioned links:
 
-- [Mail](me@kartikanand.com)
+- [Mail](mailto:me@kartikanand.com)
 - [Linkedin](http://linkedin.com/in/kartikanand1)
 - [Github](https://github.com/kartikanand)
 - [StackOverflow](http://stackoverflow.com/users/1251851/kartik-anand)
