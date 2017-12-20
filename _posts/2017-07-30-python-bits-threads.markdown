@@ -13,8 +13,7 @@ author: kartikanand
 description: Adding threads to our Python Imgur album downloader
 ---
 
-![](https://cdn-images-1.medium.com/max/1600/1*QizxjQI0lGert9Fv6q3Vfw.jpeg)
-<span class="figcaption_hack">Intel Pentium 4 was the first desktop CPU with Hyper Threading technology</span>
+![](https://cdn-images-1.medium.com/max/1600/1*QizxjQI0lGert9Fv6q3Vfw.jpeg){: .center-image }
 
 > This is the second in the series of Python blog posts I’m writing, you can find
 > the first one
