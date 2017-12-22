@@ -22,6 +22,14 @@ title: Projects
 
 ---
 
+### [Outing Box](http://outingbox.com/)
+
+> A website to find things to do around you
+
+[Github Link](https://github.com/kartikanand/outing-box)
+
+---
+
 ### [Python Imgur Album downloader](https://github.com/kartikanand/imgur-downloader)
 
 > A CLI program to download images from Imgur
