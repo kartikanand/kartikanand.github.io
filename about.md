@@ -1,9 +1,11 @@
 ---
-title: About
 layout: page
+title: About
 ---
 
-## About Me
+<section class="list"></section>
+
+# About Me
 
 Hey there !
 

@@ -3,12 +3,14 @@ layout: page
 title: Projects
 ---
 
-# some of my open-source projects
+<section class="list"></section>
+
+# Some of my open-source projects
 
 
 ### [BrainFuck Interpreter](https://github.com/kartikanand/bfk)
 
-> my attempt at creating an interprer for the BrainFuck programming language
+> my attempt at creating an interpreter for the BrainFuck programming language
 
 [Github Link](https://github.com/kartikanand/bfk)
 
