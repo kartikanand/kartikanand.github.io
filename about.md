@@ -9,15 +9,15 @@ title: About
 
 Hey there !
 
-I’m Kartik Anand from Delhi, India. For my day job, I work on logic synthesis tools. I’m currently employed with Synopsys Inc. Logic Synthesis refers to the process of converting HDL (Hardware description languages) to gate level net list, in a sense, synthesis tools are your compilers for Verilog, VHDL, and System Verilog family of languages.
+I’m Kartik Anand from Delhi, India. Currently, I'm a first year graduate student in the department of [Computer Science](http://www.cs.wisc.edu) at the [University of Wisconsin-Madison](https://www.wisc.edu). I'm broadly interested in the fields of *Computer Architecture*, *Systems*, and *Compilers*, so basically the nitty gritties of how a computer system works.
 
-I like to make silly side projects from time to time, particularly to learn new programming languages, web frameworks, and interesting programming paradigms (Currently dabbling with Rust)
+Before coming here, I was employed with [Synopsys Inc.](https://www.synopsys.com) where I worked on developing [logic synthesis tools](https://en.wikipedia.org/wiki/Logic_synthesis). Logic Synthesis refers to the process of converting HDL (Hardware description languages) to gate level net list, in a sense, synthesis tools are your compilers for Verilog, VHDL, and System Verilog family of languages.
+
+I like to make small fully contained side projects from time to time, particularly to learn new programming languages, web frameworks, and interesting programming paradigms. This website is a place to host and show off my silly side projects, and write on things that people may find interesting and helpful.
 
 You may contact me through the below mentioned links:
 
-- [Mail](mailto:me@kartikanand.com)
-- [Linkedin](http://linkedin.com/in/kartikanand1)
-- [Github](https://github.com/kartikanand)
-- [StackOverflow](http://stackoverflow.com/users/1251851/kartik-anand)
+    Personal email : me [at] kartikanand.com or kartikanand1992 [at] gmail.com
+    Official email : kt [at] cs.wisc.edu
 
-This website has been created using the Indigo theme. It uses Jekyll for creating static web pages, and is deployed on Github Pages.
+This website is a modified version of [Indigo](https://github.com/sergiokopplin/indigo) theme for Jekyll and is deployed on [Github Pages](https://pages.github.com).
