@@ -178,4 +178,4 @@ You can also find all three test-cases here:
 
 [using valgrind](https://github.com/kartikanand/using-valgrind)
 
-### [Kartik Anand](https://medium.com/@exqu17)
+### Kartik Anand

@@ -66,4 +66,4 @@ Phew, that was quite some work with locks and all. In the next post, we’ll mov
 from these messy threads to the new and shiny **async-await** style for doing
 asynchronous code.
 
-### [Kartik Anand](https://medium.com/@exqu17)
+### Kartik Anand

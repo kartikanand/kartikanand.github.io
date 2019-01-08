@@ -96,4 +96,4 @@ The code as it stands currently is too slow, this is due to the fact that the
 images are being download sequentially. In the next post, we’ll use threads to
 speed it up by processing downloads in parallel.
 
-### [Kartik Anand](https://medium.com/@exqu17)
+### Kartik Anand

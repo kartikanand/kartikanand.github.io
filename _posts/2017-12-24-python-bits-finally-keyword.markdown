@@ -137,4 +137,4 @@ The above code will guarantee that even if our function throws an exception, we 
 1.  [https://www.peterbe.com/plog/really-simple-django-view-function-timer-decorator](https://www.peterbe.com/plog/really-simple-django-view-function-timer-decorator)
 1.  [https://docs.python.org/2/tutorial/errors.html](https://docs.python.org/2/tutorial/errors.html)
 
-### [Kartik Anand](https://medium.com/@exqu17)
+### Kartik Anand

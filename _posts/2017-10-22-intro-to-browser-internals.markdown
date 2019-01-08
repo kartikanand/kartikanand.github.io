@@ -79,4 +79,4 @@ called such to avoid trademark issues with Sun). Later on, the Edge team forked
 it to create their own “JavaScript” engine, also called
 [Chakra](https://en.wikipedia.org/wiki/Chakra_(JavaScript_engine)).
 
-### [Kartik Anand](https://medium.com/@exqu17)
+### Kartik Anand

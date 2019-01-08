@@ -48,4 +48,4 @@ And this is why, people say that name your variables correctly and for their cor
 
 This goes on to prove that, one should write code assuming that other people are going to read it. It doesn’t matter if you thought that naming the map cleverly is ok, since, when other people would debug thus code they would not think of this cleverness.
 
-### [Kartik Anand](https://medium.com/@exqu17)
+### Kartik Anand

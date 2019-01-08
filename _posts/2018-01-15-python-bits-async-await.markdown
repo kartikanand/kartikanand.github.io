@@ -159,5 +159,5 @@ Some very good sources for more info:
 Smallshire](https://www.youtube.com/watch?v=M-UcUs7IMIM&feature=youtu.be)
 1.  [aiohttp docs](https://aiohttp.readthedocs.io/en/stable/)
 
-### [Kartik Anand](https://medium.com/@exqu17)
+### Kartik Anand
 

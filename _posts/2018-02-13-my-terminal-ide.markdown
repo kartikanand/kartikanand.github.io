@@ -95,4 +95,4 @@ And that’s it, these lightweight tools are able to do most of the heavy liftin
 for me. Apart from these, I just use normal linux commands like `grep`, `find`,
 `sed`, `cut`, etc. if I want to create scripts or find something in a hurry.
 
-### [Kartik Anand](https://medium.com/@exqu17)
+### Kartik Anand

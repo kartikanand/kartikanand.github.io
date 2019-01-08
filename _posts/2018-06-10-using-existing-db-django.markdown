@@ -54,4 +54,4 @@ References:
 [Using Django with legacy databases](https://docs.djangoproject.com/en/2.0/howto/legacy-databases/)
 
 
-### [Kartik Anand](https://medium.com/@exqu17)
+### Kartik Anand

@@ -70,4 +70,4 @@ for managing your dot files
 
     https://dotfiles.github.io/
 
-### [Kartik Anand](https://medium.com/@exqu17)
+### Kartik Anand

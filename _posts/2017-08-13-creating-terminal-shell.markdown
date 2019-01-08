@@ -185,10 +185,10 @@ Now just run `make` on the command line, and voila you’ll have `bin/msh` as yo
 own shell, ready to run programs
 
     kartik@kt:~/projects/blog$ make
-    kartik@kt:~/projects/blog$ ./bin/msh 
+    kartik@kt:~/projects/blog$ ./bin/msh
     msh >> ls
     bin  include  lib  Makefile  src
 
 In the next part, we’ll add builtins to our shell, especially the `cd` builtin!
 
-### [Kartik Anand](https://medium.com/@exqu17)
+### Kartik Anand

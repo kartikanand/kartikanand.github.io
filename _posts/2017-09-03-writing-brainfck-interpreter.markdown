@@ -147,4 +147,4 @@ And here’ the script running:
 
 <img src="{{site.url}}/assets/images/tty.gif" >
 
-### [Kartik Anand](https://medium.com/@exqu17)
+### Kartik Anand

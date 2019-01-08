@@ -108,4 +108,4 @@ Now just build, and we can `cd` into directories
 
 In the next post we’ll add the support for redirecting streams, so hold on!
 
-### [Kartik Anand](https://medium.com/@exqu17)
+### Kartik Anand

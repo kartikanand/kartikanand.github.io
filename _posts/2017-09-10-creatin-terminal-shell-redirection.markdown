@@ -103,4 +103,4 @@ Now just run make, and we can redirect streams !
     README
     src
 
-### [Kartik Anand](https://medium.com/@exqu17)
+### Kartik Anand
