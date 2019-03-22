@@ -2,16 +2,10 @@
 title: "Intro to browser internals"
 layout: post
 date: 2017-10-22 09:00
-headerImage: false
-tag:
-- development
-- programming
+author: kt
 category: blog
-author: kartikanand
 description: An introduction to web browser internals
 ---
-
-![](https://cdn-images-1.medium.com/max/1600/1*nBNXnRl47xQB9R0mCsz4_g.png)
 
 Browsers are a complicated piece of software composed of many different modules
 which work together to provide a unified interface to the world of the Internet.
@@ -78,5 +72,3 @@ executing [JScript](https://en.wikipedia.org/wiki/JScript) (Yes intentionally
 called such to avoid trademark issues with Sun). Later on, the Edge team forked
 it to create their own “JavaScript” engine, also called
 [Chakra](https://en.wikipedia.org/wiki/Chakra_(JavaScript_engine)).
-
-### Kartik Anand

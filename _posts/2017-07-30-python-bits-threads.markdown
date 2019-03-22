@@ -2,18 +2,10 @@
 title: "Python Bits — Using Threads"
 layout: post
 date: 2017-07-30 09:00
-headerImage: false
-tag:
-- python
-- api
-- programming
-- multi-threading
+author: kt
 category: blog
-author: kartikanand
 description: Adding threads to our Python Imgur album downloader
 ---
-
-![](https://cdn-images-1.medium.com/max/1600/1*QizxjQI0lGert9Fv6q3Vfw.jpeg){: .center-image }
 
 > This is the second in the series of Python blog posts I’m writing, you can find
 > the first one
@@ -65,5 +57,3 @@ the same global variable simultaneously, and not mess up the whole thing.
 Phew, that was quite some work with locks and all. In the next post, we’ll move
 from these messy threads to the new and shiny **async-await** style for doing
 asynchronous code.
-
-### Kartik Anand

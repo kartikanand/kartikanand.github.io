@@ -2,17 +2,10 @@
 title: "Creating a Terminal shell"
 layout: post
 date: 2017-08-13 09:00
-headerImage: false
-tag:
-- C
-- terminal
-- programming
+author: kt
 category: blog
-author: kartikanand
 description: A tutorial on creating your own terminal shell
 ---
-
-![](https://cdn-images-1.medium.com/max/1600/1*sQGleKlz2vkP07p_IhRV2g.png)
 
 > In this series of posts we’ll create a Linux terminal shell from the ground up
 > using the C programming language and some basic Linux system calls. This shell
@@ -190,5 +183,3 @@ own shell, ready to run programs
     bin  include  lib  Makefile  src
 
 In the next part, we’ll add builtins to our shell, especially the `cd` builtin!
-
-### Kartik Anand

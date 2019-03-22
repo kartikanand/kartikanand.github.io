@@ -2,18 +2,10 @@
 title: "Using an existing DB with Django"
 layout: post
 date: 2018-06-10 09:00
-headerImage: false
-tag:
-- development
-- programming
-- python
-- django
+author: kt
 category: blog
-author: kartikanand
 description: A short post on how to use a legacy database with a new Django project
 ---
-
-![](https://cdn-images-1.medium.com/max/1600/1*dhmxpJkkJ5cAlojP_hyxIg.png){: .center-image }
 
 >Recently I had to move an existing CMS application to Django for a friend. The task involved using an existing database with Django, which led to me spending the whole weekend to get it just right. In this post I have laid out the steps that I did to make it work.
 
@@ -49,9 +41,6 @@ And we’re done!
 
 After this, we can start using the this project as is with Django, create new fields, alter fields, make migrations, and migrate them (don’t fake them this time)
 
-References:
+#### References:
 
-[Using Django with legacy databases](https://docs.djangoproject.com/en/2.0/howto/legacy-databases/)
-
-
-### Kartik Anand
+- [Using Django with legacy databases](https://docs.djangoproject.com/en/2.0/howto/legacy-databases/)

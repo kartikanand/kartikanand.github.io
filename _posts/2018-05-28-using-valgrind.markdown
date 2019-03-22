@@ -2,17 +2,10 @@
 title: "Developer toolkit - Using valgrind"
 layout: post
 date: 2018-05-28 09:00
-headerImage: false
-tag:
-- development
-- programming
-- linux
+author: kt
 category: blog
-author: kartikanand
 description: An intro to using valgrind to detect memory errors
 ---
-
-![](https://cdn-images-1.medium.com/max/1600/1*XG1gdrt0ueY5ynrFqUqZUw.png){: .center-image }
 
 When you code in C and C++, you’re responsible for memory being allocated on the heap. Whenever you use malloc or new, you’re effectively taking memory from the heap, which you’re supposed to give back yourself.
 
@@ -25,8 +18,6 @@ In this introductory blog post, I’ll show three areas where valgrind is partic
 To install valgrind on Ubuntu, just use the following command:
 
     sudo apt install valgrind
-
----
 
 ## Memory leaks
 
@@ -55,7 +46,7 @@ And voila, valgrind would tell you that you forgot to free the memory:
     ==4083== HEAP SUMMARY:
     ==4083==     in use at exit: 4 bytes in 1 blocks
     ==4083==     total heap usage: 2 allocs, 1 frees, 1,028 bytes allocated
-    ==4083== 
+    ==4083==
     ==4083== 4 bytes in 1 blocks are definitely lost in loss record 1 of 1
     ==4083==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
     ==4083==    by 0x40057E: main (test.c:5)
@@ -63,8 +54,6 @@ And voila, valgrind would tell you that you forgot to free the memory:
 Not only will valgind tell you that you’ve got memory that you forgot to free, but it’ll also point towards the line where you actually allocated memory from the system.
 
 Uncomment the `free(p)` line, compile the program and run it again. You’ll see that the above message will disappear.
-
----
 
 ## Double free
 
@@ -120,8 +109,6 @@ Alloc -
 
     by 0x40060B: main (test.c:10)
 
----
-
 ## Uninitialized variables
 
 This is one problem that can hurt your program and you wouldn’t even notice. Although, turning on compiler warnings may help you mitigate the above for variables allocated on stack, it is generally a good idea to run valgrind and look for such uninitialized variables
@@ -158,7 +145,7 @@ Running valgrind on the above test-case should yield something like below:
     ==4746==    at 0x400579: main (test.c:6)
     ==4746==  Uninitialised value was created by a stack allocation
     ==4746==    at 0x400566: main (test.c:4)
-    ==4746== 
+    ==4746==
     Hello, world!
     ==4746== Conditional jump or move depends on uninitialised value(s)
     ==4746==    at 0x40059B: main (test.c:11)
@@ -168,14 +155,7 @@ Running valgrind on the above test-case should yield something like below:
 
 You can see that valgrind caught both initialized variable on the stack as well as on the heap. You may also notice we got one print of “Hello, World!” owing to the fact that it had some garbage value and the conditional evaluated to true in this particular case.
 
----
+Valgrind, is not limited to just what I’ve shown above. It can be used for profiling your programs, as well as detecting race conditions in multi-threaded code. It is an indispensable tool for anyone programming in C and C++ as you saw above. You can find more information on using valgrind as a memory error detector as well as the test cases here:
 
-Valgrind, is not limited to just what I’ve shown above. It can be used for profiling your programs, as well as detecting race conditions in multi-threaded code. It is an indispensable tool for anyone programming in C and C++ as you saw above. You can find more information on using valgrind as a memory error detector here:
-
-[valgrind manual](http://valgrind.org/docs/manual/mc-manual.html)
-
-You can also find all three test-cases here:
-
-[using valgrind](https://github.com/kartikanand/using-valgrind)
-
-### Kartik Anand
+- [valgrind manual](http://valgrind.org/docs/manual/mc-manual.html)
+- [using valgrind](https://github.com/kartikanand/using-valgrind)

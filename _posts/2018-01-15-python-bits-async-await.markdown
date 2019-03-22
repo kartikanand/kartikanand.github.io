@@ -2,14 +2,8 @@
 title: "Python Bits — Moving from threads to async-await"
 layout: post
 date: 2018-01-15 09:00
-headerImage: false
-tag:
-- python
-- development
-- programming
-- asynchronous
+author: kt
 category: blog
-author: kartikanand
 description: An introduction to moving from threads to asynchronous programming
 ---
 
@@ -30,14 +24,16 @@ on doing other things while it waits for the page to load. This isn’t the same
 as doing multiple things in parallel. The following pseudocode should make
 things a bit easier to understand :
 
-    ### Blocking code example
+```python
+    # Blocking code example
     page = get_page_sync('some_page')
 
-    ### The call to print is blocked
-    ### If the get_page_sync is a slow function
-    ### Our whole program would get stalled
+    # The call to print is blocked
+    # If the get_page_sync is a slow function
+    # Our whole program would get stalled
 
     print(page)
+```
 
 There are two approaches to mitigate the above scenarios. First, let’s use
 threads (which we have done till now in our Imgur album downloader). By using
@@ -155,9 +151,6 @@ Here’s the entire code:
 
 Some very good sources for more info:
 
-1.  [Get to grips with asyncio in Python 3 — Robert
+- [Get to grips with asyncio in Python 3 — Robert
 Smallshire](https://www.youtube.com/watch?v=M-UcUs7IMIM&feature=youtu.be)
-1.  [aiohttp docs](https://aiohttp.readthedocs.io/en/stable/)
-
-### Kartik Anand
-
+- [aiohttp docs](https://aiohttp.readthedocs.io/en/stable/)

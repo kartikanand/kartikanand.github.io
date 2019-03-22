@@ -2,17 +2,10 @@
 title: "Python Bits — Writing an Imgur Album downloader"
 layout: post
 date: 2017-07-17 09:00
-headerImage: false
-tag:
-- python
-- api
-- programming
+author: kt
 category: blog
-author: kartikanand
 description: Using Python to download Imgur albums from the CLI
 ---
-
-![](https://cdn-images-1.medium.com/max/1600/1*fw3b_alHFz06dX0VUjJUCA.png)
 
 > This is the first in the series of Python blog posts I’m “hoping” to write. In
 > this particular one I’ll write a simple python script to download whole Imgur
@@ -95,5 +88,3 @@ Python to call this script and pass the album id as a command line argument
 The code as it stands currently is too slow, this is due to the fact that the
 images are being download sequentially. In the next post, we’ll use threads to
 speed it up by processing downloads in parallel.
-
-### Kartik Anand

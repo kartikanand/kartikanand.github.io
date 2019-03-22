@@ -2,17 +2,10 @@
 title: "My terminal is my IDE"
 layout: post
 date: 2018-02-13 09:00
-headerImage: false
-tag:
-- development
-- programming
-- linux
+author: kt
 category: blog
-author: kartikanand
 description: A description of command-line tools I use for development
 ---
-
-![](https://cdn-images-1.medium.com/max/1600/1*l7pz0seA3lNR-11nRhgK-Q.jpeg)
 
 When people ask me what IDE I use at my work, I tell them I don’t. This always
 baffles my friends who are used to working with PyCharm, Eclipse and Visual
@@ -94,5 +87,3 @@ You can get `htop` from [here](https://medium.com/p/b7267ddd3bb2/edit).
 And that’s it, these lightweight tools are able to do most of the heavy lifting
 for me. Apart from these, I just use normal linux commands like `grep`, `find`,
 `sed`, `cut`, etc. if I want to create scripts or find something in a hurry.
-
-### Kartik Anand

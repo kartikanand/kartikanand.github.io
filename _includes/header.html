@@ -1,17 +1,16 @@
-{% if page.title == "Home"
-   or page.title == "Blog"
-   or page.title == "Projects"
-   or page.title == "About"
-   or page.title == "Tags"
-%}{% assign showHeader = true %}{% endif %}
+<nav class="nav">
+    <ul class="list">
+        <li class="item">
+            <a class="link" href="{{ site.url }}/">#ramblings</a>
+            <span>|</span>
+        </li>
+        <li class="item">
+            <a class="link" href="{{ site.url }}/lab">#lab</a>
+            <span>|</span>
+        </li>
+        <li class="item">
+            <a class="link" href="{{ site.url }}/me">#me</a>
+        </li>
+    </ul>
+</nav>
 
-{% if showHeader == true %}
-    <header class="header-home {% if site.animation %}animated{% endif %}">
-        <h1 class="title"><a class="link" href="{{ site.url }}/">{{ site.name }}</a></h1>
-        <h2 class="description">{{ site.bio }}</h2>
-
-        {% include social-links.html %}
-    </header>
-{% endif %}
-
-{% include nav.html %}

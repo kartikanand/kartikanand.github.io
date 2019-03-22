@@ -1,11 +1,7 @@
 body, html
-	font-size: 75%
-
-body
-	line-height: 24px
-	font: 17px $fontSans
+	font: 16px $fontSans
 	color: $alpha
-	background-color: #fff
+	background-color: #fefefe
 
 h1, h2, h3, h4
 	font-family: $fontHeading
@@ -27,19 +23,20 @@ h4
 	font-size: 1.6rem
 
 a
-	color: $delta
+	color: $beta
 	text-decoration: none
+	border-bottom: 1px solid transparent
+	transition: ease-in-out all .3s
+	padding-bottom: 1px
 
 	&:hover
-		text-decoration: underline
+		border-color: $gama
+
 p
-	line-height: 1.7
+	line-height: 1.375rem
 	color: $alpha
 	margin-bottom: 20px
 	font-weight: 300
-
-	@media #{$mobile}
-		letter-spacing: 0.2px
 
 strong
 	font-weight: 400
@@ -52,32 +49,22 @@ ol
 		font-weight: 300
 		color: $alpha
 
-img,
-pre,
-iframe
-	max-width: 100%
+ul
+	li
+		list-style: disc
+
+ol
+	li
+		list-style: decimal
 
 img,
 pre
+	max-width: 100%
 	border-radius: 4px
 
-figcaption
-	position: relative
-	top: -20px
-	left: 0
-	right: 0
-	margin: 0 auto
-	width: 100%
-	text-align: center
-	font-size: 1.3rem
-	color: $gama
-	font-weight: 300
-
-	@media #{$mobile}
-		font-size: 1.2rem
-
 blockquote
-	margin-top: 3px
+	margin-top: 3rem
+	margin-bottom: 3rem
 	padding-left: 15px
 	border-left: 3px solid #eee
 
@@ -118,11 +105,11 @@ pre
 	border: 1px solid $epsilon
 	border-radius: 2px
 
-.wrapper-normal,
 .wrapper-large
 	height: 100%
-	width: 96%
+	width: 100%
 	margin: 0 auto
+	max-width: 690px
 
 	@media #{$mobile}
 		width: 88%
@@ -130,8 +117,3 @@ pre
 	@media #{$tablet}
 		width: 88%
 
-.wrapper-normal
-	max-width: 560px
-
-.wrapper-large
-	max-width: 810px

@@ -2,13 +2,8 @@
 title: "Python Bits - Finally keyword"
 layout: post
 date: 2017-12-24 09:00
-headerImage: false
-tag:
-- python
-- development
-- programming
+author: kt
 category: blog
-author: kartikanand
 description: An introduction to the finally keyword in Python
 ---
 

@@ -2,17 +2,10 @@
 title: "Creating a Terminal shell - Adding Builtins"
 layout: post
 date: 2017-08-27 09:00
-headerImage: false
-tag:
-- C
-- terminal
-- programming
+author: kt
 category: blog
-author: kartikanand
 description: Adding builtins to our terminal shell
 ---
-
-![](https://cdn-images-1.medium.com/max/1600/1*N_G5C1B66rCmowP_aT-6Aw.png)
 
 > This post is in continuation to to our series on creating a terminal shell. You
 > can checkout the first post
@@ -99,7 +92,7 @@ The final thing to do is change our `Makefile` to start building our `builtins.c
 
 Now just build, and we can `cd` into directories
 
-    kartik@kt:~/projects/blog$ ./bin/msh 
+    kartik@kt:~/projects/blog$ ./bin/msh
     msh >> pwd
     /hdd/projects/blog
     msh >> cd /
@@ -107,5 +100,3 @@ Now just build, and we can `cd` into directories
     /
 
 In the next post we’ll add the support for redirecting streams, so hold on!
-
-### Kartik Anand

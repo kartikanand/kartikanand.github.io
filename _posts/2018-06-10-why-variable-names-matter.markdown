@@ -2,17 +2,10 @@
 title: "Why variable names matter"
 layout: post
 date: 2018-06-10 09:00
-headerImage: false
-tag:
-- development
-- programming
-- software engineer
+author: kt
 category: blog
-author: kartikanand
 description: A short post on why variable names matter
 ---
-
-![](https://cdn-images-1.medium.com/max/1600/1*lbHWFqfTzKdvcPDs3c-bpA.jpeg){: .center-image }
 
 >This is a short story of me spending three days to debug a bug in the serializer code of a project and explain why it took me so much time to find the actual piece of code responsible for incorrect behaviour.
 
@@ -28,15 +21,17 @@ This was a very simple piece of code, and I could see correct values being writt
 
 See, after spending a lot of time in frustration, I started checking other parts of the same function, and somewhere down below I found this:
 
-    SerialDumper dmp;
-    for e in expressions:
-        dmp.write(e);
-    ...
-    for e in dmp:
-        if some_cond:
-            strm << e;
-        else:
-            strm << something_else;
+```c
+SerialDumper dmp;
+for e in expressions:
+    dmp.write(e);
+...
+for e in dmp:
+    if some_cond:
+        strm << e;
+    else:
+        strm << something_else;
+```
 
 The bug here was quite simple, the condition `some_cond` wasn’t getting fulfilled in this case, and the incorrect expressions `something_else` was getting dumped instead of the actual expressions. I never looked at this piece of code, since to me the `dmp.write` method was writing the correct expression all along.
 
@@ -47,5 +42,3 @@ To make matters worse, the member function was called “write”, which sounded
 And this is why, people say that name your variables correctly and for their correct purpose. Even if the variable name was a single character or something (which engineers strongly suggest against) I would’ve checked it. But the fact was that it was named “dumper” and I didn't give it another thought.
 
 This goes on to prove that, one should write code assuming that other people are going to read it. It doesn’t matter if you thought that naming the map cleverly is ok, since, when other people would debug thus code they would not think of this cleverness.
-
-### Kartik Anand

@@ -2,17 +2,10 @@
 title: "Creating a Terminal shell - Redirecting Streams"
 layout: post
 date: 2017-09-10 09:00
-headerImage: false
-tag:
-- C
-- terminal
-- programming
+author: kt
 category: blog
-author: kartikanand
 description: Adding the functionality of redirecting streams to our terminal shell
 ---
-
-![](https://cdn-images-1.medium.com/max/1600/1*4yJRZhzVNkJGgnOUhxSOwQ.png)
 
 > This post is in continuation to to our series on creating a terminal shell. You
 > can checkout the first post
@@ -89,7 +82,7 @@ Here’s how it’s done:
 
 Now just run make, and we can redirect streams !
 
-    kartik@kt:~/projects/blog$ ./bin/msh 
+    kartik@kt:~/projects/blog$ ./bin/msh
     msh >> ls
     bin  include  lib  LICENSE  Makefile  README  src
     msh >> ls > out
@@ -102,5 +95,3 @@ Now just run make, and we can redirect streams !
     out
     README
     src
-
-### Kartik Anand

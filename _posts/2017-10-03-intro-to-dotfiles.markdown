@@ -2,17 +2,10 @@
 title: "Intro to dot files"
 layout: post
 date: 2017-10-03 09:00
-headerImage: false
-tag:
-- development
-- linux
-- programming
+author: kt
 category: blog
-author: kartikanand
 description: An introduction to managing your dot files
 ---
-
-![](https://cdn-images-1.medium.com/max/1600/1*_AVjaLnyf4aCmGoUZQQdTA.png)
 
 So what’re dot files and why should you care. If you’ve been slamming away on
 the command-line for some time, then you must have accrued lines and lines of
@@ -69,5 +62,3 @@ following article by GitHub itself which has listed multitudes of applications
 for managing your dot files
 
     https://dotfiles.github.io/
-
-### Kartik Anand
