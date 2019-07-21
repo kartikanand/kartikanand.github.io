@@ -3,16 +3,16 @@ layout: page
 title: lab
 ---
 
-> don't expect anything in this list to just work
+<br />
 
-### terminal stuff
+### terminal
 - [BrainFuck Interpreter](https://github.com/kartikanand/bfk)
 - [msh](https://github.com/kartikanand/msh)
 - [dotfiles](https://github.com/kartikanand/dotfiles)
 
 <br />
 
-### web stuff
+### web
 - [Outing Box](https://github.com/kartikanand/outing-box)
 - [Eat Out](https://github.com/kartikanand/eat-out)
 - [Wikilooper](https://github.com/kartikanand/wikilooper)
@@ -21,7 +21,7 @@ title: lab
 
 <br />
 
-### python stuff
+### python
 - [Python Imgur Album downloader](https://github.com/kartikanand/imgur-downloader)
 
 <br />
@@ -33,7 +33,7 @@ title: lab
 
 <br />
 
-### chrome extension
+### chrome
 - [Chrome bookmarks analyzer](https://github.com/kartikanand/chrome-bookmarks-analyzer)
 
 <br />
@@ -43,7 +43,7 @@ title: lab
 
 <br />
 
-### algo stuff
+### game theory
 - [TicTacToe - Implementation of MiniMax algorithm](https://github.com/kartikanand/tictactoe)
 
 <br />

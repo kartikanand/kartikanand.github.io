@@ -3,8 +3,6 @@ layout: page
 title: ramblings
 ---
 
-> think of these more as my experience with code rather than as tutorials to help you do something.
-
 <section class="blog-posts">
 	{% for post in site.posts %}
 		{% if post.category == 'blog' %}
