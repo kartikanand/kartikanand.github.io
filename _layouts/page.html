@@ -2,6 +2,8 @@
 layout: default
 ---
 <div class="page">
+	{% if page.title != "quotes" %}
     <h3 class="title">#{{ page.title }}</h3>
+    {% endif %}
     {{content}}
 </div>
