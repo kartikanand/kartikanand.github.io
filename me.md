@@ -3,4 +3,4 @@ layout: page
 title: me
 ---
 
-I'm Kartik Anand a Software Engineer from Delhi, India. I'm currently pursuing a Master's degree in Computer Science at the University of Wisconsin - Madison.
+Greetings! I am Kartik Anand, a software engineer at Microsoft, where I work on the Edge team. In my free time, I enjoy developing small, self-contained applications and writing about topics that spark my curiosity.
