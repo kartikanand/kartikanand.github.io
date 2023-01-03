@@ -1,12 +1,11 @@
 ---
-layout: page
-title: lab
+layout: Projects
+title: projects
 ---
 
 <br />
 
 ### terminal
-- [BrainFuck Interpreter](https://github.com/kartikanand/bfk)
 - [msh](https://github.com/kartikanand/msh)
 - [dotfiles](https://github.com/kartikanand/dotfiles)
 
