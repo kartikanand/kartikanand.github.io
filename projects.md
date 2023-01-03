@@ -1,5 +1,5 @@
 ---
-layout: Projects
+layout: page
 title: projects
 ---
 
