@@ -1,0 +1,19 @@
+---
+layout: page
+title: ramblings
+---
+
+<section class="blog-posts">
+	{% for post in collections.all %}
+		{% if post.data.category == 'blog' %}
+			{% if post.data.hidden != true %}
+            <h6 class="blog-post">
+                {{ post.data.date | date: "%b %d %Y" }} -
+    			<a class="url" href="{{ post.url }}">
+                    {{ post.data.title }}
+                </a>
+            </h6>
+			{% endif %}
+		{% endif %}
+	{% endfor %}
+</section>

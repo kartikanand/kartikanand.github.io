@@ -1,7 +1,7 @@
 ---
 title: "Intro to dot files"
 layout: post
-date: 2017-10-03 09:00
+date: 2017-10-03 09:00:00
 author: kt
 category: blog
 description: An introduction to managing your dot files

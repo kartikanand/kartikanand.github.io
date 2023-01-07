@@ -1,7 +1,7 @@
 ---
 title: "Creating a Terminal shell"
 layout: post
-date: 2017-08-13 09:00
+date: 2017-08-13 09:00:00
 author: kt
 category: blog
 description: A tutorial on creating your own terminal shell

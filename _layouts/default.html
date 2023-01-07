@@ -1,5 +1,4 @@
 ---
-layout:
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -9,25 +8,22 @@ layout:
     <meta name=viewport content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="V2BHNnTJQxvUbzc-7h7W8AauatZZ86TYHFT_ngjTk8s" />
 
-    <title>#{{ page.title }} - kt</title>
+    <title>#{{ title }} - kt</title>
 
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fira+Mono" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
 
-    <style>
-    {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
-    {{ scss_sheet | scssify }}
-    </style>
-
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <div class="wrapper-large">
-        {% include header.html %}
+        {% capture title %}{{ title }}{% endcapture %}
+        {% render "header.html", title: title %}
 
         {{ content }}
 
-        {% include footer.html %}
+        {% render "footer.html" %}
     </div>
 </body>
 </html>
