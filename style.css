@@ -261,6 +261,7 @@ body, html {
   font: 16px "Fira Mono", "PT Sans", Helvetica, Arial, sans-serif;
   color: #333;
   background-color: #fefefe;
+  font-weight: 400;
 }
 
 h1, h2, h3, h4 {
@@ -392,14 +393,34 @@ pre {
   margin: 0 auto;
   max-width: 690px;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 720px) {
   .wrapper-large {
     width: 88%;
   }
+
+  .page > .blog-posts .blog-post {
+    flex-direction: column;
+    margin-bottom: 1rem !important;
+  }
+
+  .blog-post-date {
+    font-size: 0.8rem;
+  }
+
+  .bigger-image {
+    min-width: 114%;
+    margin: 2rem 0 2rem -7%;
+  }
 }
-@media only screen and (min-width: 400px) and (max-width: 1050px) {
+
+@media only screen and (min-width: 721px) and (max-width: 1050px) {
   .wrapper-large {
     width: 88%;
+  }
+
+  .bigger-image {
+    min-width: 114%;
+    margin: 2rem 0 2rem -7%;
   }
 }
 
@@ -427,6 +448,12 @@ pre {
 }
 .page > .blog-posts .blog-post {
   margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-post > a {
+  font-weight: 700;
 }
 
 .post > .title {
@@ -548,24 +575,13 @@ pre {
   min-width: 130%;
   margin: 5rem 0 5rem -15%;
 }
-@media only screen and (max-width: 400px) {
-  .bigger-image {
-    min-width: 114%;
-    margin: 2rem 0 2rem -7%;
-  }
-}
-@media only screen and (min-width: 400px) and (max-width: 1050px) {
-  .bigger-image {
-    min-width: 114%;
-    margin: 2rem 0 2rem -7%;
-  }
-}
 
 .breaker {
   height: 1px;
   margin: 6rem auto;
   width: 100%;
 }
+
 .breaker:before {
   content: "• • •";
   width: 100%;

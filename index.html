@@ -9,10 +9,10 @@ permalink: "/index.html"
 		{% if post.data.category == 'blog' %}
 			{% if post.data.hidden != true %}
             <h6 class="blog-post">
-                {{ post.data.date | date: "%b %d %Y" }} -
-    			<a class="url" href="{{ post.url }}">
+				<a class="url" href="{{ post.url }}">
                     {{ post.data.title }}
                 </a>
+				<span class="blog-post-date">{{ post.data.date | date: "%b %d %Y" }}</span>
             </h6>
 			{% endif %}
 		{% endif %}
