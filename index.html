@@ -5,7 +5,7 @@ permalink: "/index.html"
 ---
 
 <section class="blog-posts">
-	{% for post in collections.all %}
+	{% for post in collections.all reversed %}
 		{% if post.data.category == 'blog' %}
 			{% if post.data.hidden != true %}
             <h6 class="blog-post">
