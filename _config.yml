@@ -1,5 +1,0 @@
-url: http://www.kartikanand.com
-permalink: /:title/
-post-advance-links: [blog]
-plugins:
-  - jekyll-gist
