@@ -2,9 +2,9 @@
 layout: default
 ---
 <div class="post">
-    <h3 class="title">{{ page.title }}</h3>
+    <h3 class="title">{{ title }}</h3>
     <span class="date">
-        <time datetime="{{ page.date | date:"%d-%m-%Y" }}">{{ page.date | date: "%B %d, %Y" }}</time>
+        <time datetime="{{ date | date:"%d-%m-%Y" }}">{{ date | date: "%B %d, %Y" }}</time>
     </span>
 
     {{content}}

@@ -1,7 +1,7 @@
 ---
 title: "Using an existing DB with Django"
 layout: post
-date: 2018-06-10 09:00
+date: 2018-06-10 09:00:00
 author: kt
 category: blog
 description: A short post on how to use a legacy database with a new Django project

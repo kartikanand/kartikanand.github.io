@@ -1,0 +1,20 @@
+---
+layout: page
+title: ramblings
+permalink: "/index.html"
+---
+
+<section class="blog-posts">
+	{% for post in collections.all reversed %}
+		{% if post.data.category == 'blog' %}
+			{% if post.data.hidden != true %}
+            <h6 class="blog-post">
+				<a class="url" href="{{ post.url }}">
+                    {{ post.data.title }}
+                </a>
+				<span class="blog-post-date">{{ post.data.date | date: "%b %d %Y" }}</span>
+            </h6>
+			{% endif %}
+		{% endif %}
+	{% endfor %}
+</section>
