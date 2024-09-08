@@ -19,21 +19,10 @@ title: projects
 [Python]
 ###### [Python Imgur Album downloader](https://github.com/kartikanand/imgur-downloader)
 
-[Data Visualization]
-###### [Threaded data visualizations](https://github.com/kartikanand/threaded-data-vis)
-###### [Filtered line charts](https://github.com/kartikanand/filtered-line-charts)
-###### [Aggregate line charts](https://github.com/kartikanand/aggregate-line-charts)
-
 [Chrome Extension]
 ###### [Chrome bookmarks analyzer](https://github.com/kartikanand/chrome-bookmarks-analyzer)
 
-[Electronics]
-###### [Raspberry pi LED server](https://github.com/kartikanand/raspi-led-server)
-
 [Game Theory]
 ###### [TicTacToe MiniMax](https://github.com/kartikanand/tictactoe)
-
-[Misc]
-###### [ESPP Calculator](https://github.com/kartikanand/espp)
 
 </div>
