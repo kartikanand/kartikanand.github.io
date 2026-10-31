@@ -4,8 +4,8 @@
   "description": "Personal Website",
   "main": "index.js",
   "scripts": {
-    "build": "npx @11ty/eleventy",
-    "dev": "npx @11ty/eleventy --serve"
+    "build": "eleventy",
+    "dev": "eleventy --serve"
   },
   "repository": {
     "type": "git",
@@ -19,9 +19,9 @@
   },
   "homepage": "https://github.com/kartikanand/kartikanand.github.io#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.2"
+    "@11ty/eleventy": "^3.1.7"
   },
   "dependencies": {
-    "@sindresorhus/slugify": "^2.1.1"
+    "@sindresorhus/slugify": "^3.0.1"
   }
 }
