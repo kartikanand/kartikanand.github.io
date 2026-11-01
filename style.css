@@ -135,6 +135,25 @@ pre {
   }
 }
 
+/* GitHub Gist embeds (third-party script, light-only; replaced in #20): make them match code blocks and stay inside the column */
+.post .gist {
+  max-inline-size: 100%;
+  margin-block: 1.75rem;
+  overflow-x: auto;
+  border: 2px solid var(--ink);
+  border-radius: 4px;
+  box-shadow: 4px 4px 0 var(--ink);
+
+  & .gist-file {
+    margin: 0;
+    border: 0;
+  }
+
+  & .gist-data {
+    border-radius: 0;
+  }
+}
+
 /* Layout */
 
 .wrapper-large {
