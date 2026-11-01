@@ -12,3 +12,10 @@ In my free time, I enjoy exploring new frameworks and technologies and creating 
 When I need a break from coding, you can find me either cooking up a storm in the kitchen, catching up on my favorite TV shows or movies. Cooking is an art form that I believe brings people together, just like coding does.
 
 That's a little bit about me! Don't hesitate to reach out if you'd like to chat.
+
+<dl class="facts">
+<dt>Now</dt><dd>Microsoft, Edge browser team</dd>
+<dt>Before</dt><dd>Synopsys</dd>
+<dt>Education</dt><dd>Punjab Engineering College, University of Wisconsin-Madison</dd>
+<dt>Location</dt><dd>Delhi, India</dd>
+</dl>

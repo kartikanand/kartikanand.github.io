@@ -1,0 +1,16 @@
+---
+layout: page
+title: quotes
+---
+
+<div class="quotes">
+    {% for quote in quotes %}
+    <figure class="quote">
+        <blockquote>
+            {% for paragraph in quote.paragraphs %}<p>{% for line in paragraph %}{{ line }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}</p>
+            {% endfor %}
+        </blockquote>
+        {% if quote.author %}<figcaption><cite>{{ quote.author }}</cite></figcaption>{% endif %}
+    </figure>
+    {% endfor %}
+</div>

@@ -1,0 +1,13 @@
+---
+layout: page
+title: projects
+---
+
+<div class="projects">
+    {% for project in projects %}
+    <a class="card" href="{{ project.url }}">
+        <span class="card-category">{{ project.category }}</span>
+        <h2 class="card-title">{{ project.name }}</h2>
+    </a>
+    {% endfor %}
+</div>

@@ -4,6 +4,13 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.amendLibrary("md", (mdLib) => mdLib.enable("code"));
 
   eleventyConfig.ignores.add("README.md");
+  eleventyConfig.addCollection("posts", (api) =>
+    api
+      .getFilteredByGlob("_posts/*.md")
+      .filter((post) => post.data.category === "blog" && post.data.hidden !== true)
+      .sort((a, b) => a.date - b.date)
+  );
+
   eleventyConfig.addPassthroughCopy("style.css");
   eleventyConfig.addPassthroughCopy("assets/images/");
 
