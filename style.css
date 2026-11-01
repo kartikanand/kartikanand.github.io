@@ -358,37 +358,6 @@ pre {
   line-height: 1.2;
 }
 
-/* About */
-
-.facts {
-  display: grid;
-  grid-template-columns: max-content 1fr;
-  gap: 0.5rem 1.5rem;
-  margin-block-start: var(--space-l);
-  padding-block-start: var(--space-m);
-  border-block-start: 1px solid var(--line);
-
-  & dt {
-    padding-block-start: 0.15rem;
-    font-size: var(--step--1);
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: var(--fg-muted);
-  }
-
-  & dd {
-    margin: 0;
-    font-weight: 500;
-    color: var(--fg-strong);
-  }
-
-  @media (max-width: 34rem) {
-    grid-template-columns: 1fr;
-    gap: 0;
-    & dd { margin-block-end: 0.75rem; }
-  }
-}
-
 /* Quotes */
 
 .quotes {
