@@ -7,7 +7,7 @@ permalink: "/{{ title | slugify }}/index.html"
     <meta charset="utf-8">
     <meta name=viewport content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="V2BHNnTJQxvUbzc-7h7W8AauatZZ86TYHFT_ngjTk8s" />
-    <meta name="description" content="Kartik Anand's personal website featuring his professional portfolio, open-source projects, blogs and a collection of his favorite quotes. Learn more about his journey and skills">
+    <meta name="description" content="{{ description | default: "Kartik Anand's personal website featuring his professional portfolio, open-source projects, blogs and a collection of his favorite quotes. Learn more about his journey and skills" | escape }}">
     <meta name="keywords" content="Kartik Anand, personal website, portfolio, open-source projects, blogs, quotes, professional journey, skills">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Kartik Anand">

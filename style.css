@@ -411,3 +411,28 @@ pre {
     animation: none !important;
   }
 }
+
+/* Series box on posts that belong to a series */
+
+.series {
+  margin-block-end: var(--space-l);
+  padding: var(--space-s) var(--space-m);
+  border-inline-start: 3px solid var(--ink);
+  background: var(--bg-code);
+  font-size: var(--step--1);
+
+  & .series-title {
+    margin-block-end: 0.25rem;
+    font-weight: 700;
+    color: var(--fg-strong);
+  }
+
+  & ol {
+    margin: 0;
+    padding-inline-start: 1.25em;
+  }
+
+  & li { line-height: 1.6; margin-block-end: 0; }
+  & a { color: var(--fg-strong); }
+  & [aria-current] { font-weight: 700; color: var(--fg-strong); }
+}
