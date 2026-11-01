@@ -1,0 +1,52 @@
+[
+  {
+    "name": "msh",
+    "category": "Terminal",
+    "url": "https://github.com/kartikanand/msh"
+  },
+  {
+    "name": "dotfiles",
+    "category": "Terminal",
+    "url": "https://github.com/kartikanand/dotfiles"
+  },
+  {
+    "name": "Outing Box",
+    "category": "Web",
+    "url": "https://github.com/kartikanand/outing-box"
+  },
+  {
+    "name": "Eat Out",
+    "category": "Web",
+    "url": "https://github.com/kartikanand/eat-out"
+  },
+  {
+    "name": "Wikilooper",
+    "category": "Web",
+    "url": "https://github.com/kartikanand/wikilooper"
+  },
+  {
+    "name": "Game of Life automaton",
+    "category": "Web",
+    "url": "https://github.com/kartikanand/game-of-life"
+  },
+  {
+    "name": "This Website",
+    "category": "Web",
+    "url": "https://github.com/kartikanand/kartikanand.github.io"
+  },
+  {
+    "name": "Python Imgur Album downloader",
+    "category": "Python",
+    "url": "https://github.com/kartikanand/imgur-downloader"
+  },
+  {
+    "name": "Chrome bookmarks analyzer",
+    "category": "Chrome Extension",
+    "url": "https://github.com/kartikanand/chrome-bookmarks-analyzer"
+  },
+  {
+    "name": "TicTacToe MiniMax",
+    "category": "Game Theory",
+    "url": "https://github.com/kartikanand/tictactoe"
+  }
+]

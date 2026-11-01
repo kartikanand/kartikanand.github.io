@@ -1,11 +1,18 @@
 ---
 layout: default
 ---
-<div class="post">
-    <h3 class="title">{{ title }}</h3>
-    <span class="date">
-        <time datetime="{{ date | date:"%d-%m-%Y" }}">{{ date | date: "%B %d, %Y" }}</time>
-    </span>
+{% assign previous = collections.posts | getPreviousCollectionItem: page %}
+{% assign next = collections.posts | getNextCollectionItem: page %}
+<article class="post">
+    <h1 class="title">{{ title }}</h1>
+    <time class="date" datetime="{{ date | date: '%Y-%m-%d' }}">{{ date | date: "%B %d, %Y" }}</time>
 
-    {{content}}
-</div>
+    {{ content }}
+
+    {% if previous or next %}
+    <nav class="post-nav" aria-label="More posts">
+        {% if previous %}<a class="prev" href="{{ previous.url }}"><small>Previous</small><span>{{ previous.data.title }}</span></a>{% else %}<span></span>{% endif %}
+        {% if next %}<a class="next" href="{{ next.url }}"><small>Next</small><span>{{ next.data.title }}</span></a>{% endif %}
+    </nav>
+    {% endif %}
+</article>
