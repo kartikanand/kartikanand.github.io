@@ -1,16 +1,33 @@
 ---
 layout: default
 ---
-{% assign previous = collections.posts | getPreviousCollectionItem: page %}
-{% assign next = collections.posts | getNextCollectionItem: page %}
+{% if series %}
+  {% assign siblings = collections.posts | inSeries: series %}
+  {% assign previous = siblings | getPreviousCollectionItem: page %}
+  {% assign next = siblings | getNextCollectionItem: page %}
+{% else %}
+  {% assign previous = collections.posts | getPreviousCollectionItem: page %}
+  {% assign next = collections.posts | getNextCollectionItem: page %}
+{% endif %}
 <article class="post">
     <h1 class="title">{{ title }}</h1>
     <time class="date" datetime="{{ date | date: '%Y-%m-%d' }}">{{ date | date: "%B %d, %Y" }}</time>
 
+    {% if series %}
+    <aside class="series" aria-label="Series">
+        <p class="series-title">Series: {{ series_names[series] }}</p>
+        <ol>
+            {% for part in siblings %}
+            <li>{% if part.url == page.url %}<span aria-current="page">{{ part.data.title }}</span>{% else %}<a href="{{ part.url }}">{{ part.data.title }}</a>{% endif %}</li>
+            {% endfor %}
+        </ol>
+    </aside>
+    {% endif %}
+
     {{ content }}
 
     {% if previous or next %}
-    <nav class="post-nav" aria-label="More posts">
+    <nav class="post-nav" aria-label="{% if series %}More in this series{% else %}More posts{% endif %}">
         {% if previous %}<a class="prev" href="{{ previous.url }}"><small>Previous</small><span>{{ previous.data.title }}</span></a>{% else %}<span></span>{% endif %}
         {% if next %}<a class="next" href="{{ next.url }}"><small>Next</small><span>{{ next.data.title }}</span></a>{% endif %}
     </nav>

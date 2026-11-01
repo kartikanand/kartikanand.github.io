@@ -1,15 +1,13 @@
 ---
-title: "Python Bits — Moving from threads to async-await"
-layout: post
+title: "Python Bits — Moving from threads to async-await"
 date: 2018-01-15 09:00:00
-author: kt
-category: blog
+series: python-bits
 description: An introduction to moving from threads to asynchronous programming
 ---
 
 > This is the third post in the series of Python blog posts I’m writing, you can
 > find the first one
-[here](2017-07-17-python-bits-imgur-downloader).
+[here](/python-bits-writing-an-imgur-album-downloader/).
 In this particular one we’ll move from threads to async-await style introduced
 in Python 3.5
 

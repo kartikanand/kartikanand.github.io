@@ -1,15 +1,13 @@
 ---
 title: "Python Bits — Using Threads"
-layout: post
 date: 2017-07-30 09:00:00
-author: kt
-category: blog
+series: python-bits
 description: Adding threads to our Python Imgur album downloader
 ---
 
 > This is the second in the series of Python blog posts I’m writing, you can find
 > the first one
-> [here](2017-07-17-python-bits-imgur-downloader).
+> [here](/python-bits-writing-an-imgur-album-downloader/).
 > In this particular one we’ll add threads to our Imgur Album downloader,
 > hopefully making it a tad bit faster than before.
 

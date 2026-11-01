@@ -1,9 +1,7 @@
 ---
 title: "Python Bits — Writing an Imgur Album downloader"
-layout: post
 date: 2017-07-17 09:00:00
-author: kt
-category: blog
+series: python-bits
 description: Using Python to download Imgur albums from the CLI
 ---
 

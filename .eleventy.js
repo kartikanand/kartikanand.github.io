@@ -3,6 +3,8 @@ module.exports = function(eleventyConfig) {
   // Eleventy 3 disables indented code blocks by default; our posts rely on them.
   eleventyConfig.amendLibrary("md", (mdLib) => mdLib.enable("code"));
 
+  eleventyConfig.addFilter("inSeries", (posts, series) =>
+    posts.filter((post) => post.data.series === series));
   eleventyConfig.ignores.add("README.md");
   eleventyConfig.addCollection("posts", (api) =>
     api

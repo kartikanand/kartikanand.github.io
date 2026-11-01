@@ -1,9 +1,6 @@
 ---
 title: "Intro to browser internals"
-layout: post
 date: 2017-10-22 09:00:00
-author: kt
-category: blog
 description: An introduction to web browser internals
 ---
 
