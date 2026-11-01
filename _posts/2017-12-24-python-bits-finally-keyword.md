@@ -1,5 +1,5 @@
 ---
-title: "Python Bits - Finally keyword"
+title: "Python Bits — Finally keyword"
 date: 2017-12-24 09:00:00
 series: python-bits
 description: An introduction to the finally keyword in Python

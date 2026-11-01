@@ -1,5 +1,5 @@
 ---
-title: "Creating a Terminal shell - Adding Builtins"
+title: "Creating a Terminal shell — Adding Builtins"
 date: 2017-08-27 09:00:00
 series: terminal-shell
 description: Adding builtins to our terminal shell

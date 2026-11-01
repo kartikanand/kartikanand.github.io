@@ -1,5 +1,5 @@
 ---
-title: "Python Bits — Moving from threads to async-await"
+title: "Python Bits — Moving from threads to async-await"
 date: 2018-01-15 09:00:00
 series: python-bits
 description: An introduction to moving from threads to asynchronous programming

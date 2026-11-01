@@ -1,5 +1,5 @@
 ---
-title: "Creating a Terminal shell - Redirecting Streams"
+title: "Creating a Terminal shell — Redirecting Streams"
 date: 2017-09-10 09:00:00
 series: terminal-shell
 description: Adding the functionality of redirecting streams to our terminal shell

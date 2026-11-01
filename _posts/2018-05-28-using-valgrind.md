@@ -1,5 +1,5 @@
 ---
-title: "Developer toolkit - Using valgrind"
+title: "Developer toolkit — Using valgrind"
 date: 2018-05-28 09:00:00
 description: An intro to using valgrind to detect memory errors
 ---
