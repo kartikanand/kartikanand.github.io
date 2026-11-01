@@ -1,7 +1,7 @@
 ---
 title: "Why variable names matter"
 layout: post
-date: 2018-06-10 09:00
+date: 2018-06-10 09:00:00
 author: kt
 category: blog
 description: A short post on why variable names matter

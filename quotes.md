@@ -3,8 +3,6 @@ layout: page
 title: quotes
 ---
 
-### Here are some of my favorite quotes and poems
-
 > Perhaps the worst will happen, perhaps not, until then, look forward to better things.  
 >   
 > Seneca  

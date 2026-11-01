@@ -1,16 +1,14 @@
 ---
 title: "Creating a Terminal shell - Adding Builtins"
 layout: post
-date: 2017-08-27 09:00
+date: 2017-08-27 09:00:00
 author: kt
 category: blog
 description: Adding builtins to our terminal shell
 ---
 
 > This post is in continuation to to our series on creating a terminal shell. You
-> can checkout the first post
-[here]({% post_url 2017-08-13-creating-terminal-shell %}). In
-this post, I’ll show how to add builtin commands to our shell.
+> can checkout the first post [here](2017-08-13-creating-terminal-shell). In this post, I’ll show how to add builtin commands to our shell.
 
 Specifically, we’ll be tackling the `cd` builtin (A command provided by the
 shell). Now first let’s clear the air, why the heck is `cd `not a program ? So

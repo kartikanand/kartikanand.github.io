@@ -1,7 +1,7 @@
 ---
 title: "Writing a BrainF**k Interpreter"
 layout: post
-date: 2017-09-03 09:00
+date: 2017-09-03 09:00:00
 author: kt
 category: blog
 description: Writing an interpreter in Python for the BrainF**k language
@@ -142,4 +142,3 @@ And here’ the script running:
 
 <img src="{{site.url}}/assets/images/tty.gif" >
 
-### Kartik Anand

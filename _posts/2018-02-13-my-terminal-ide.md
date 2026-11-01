@@ -1,7 +1,7 @@
 ---
 title: "My terminal is my IDE"
 layout: post
-date: 2018-02-13 09:00
+date: 2018-02-13 09:00:00
 author: kt
 category: blog
 description: A description of command-line tools I use for development

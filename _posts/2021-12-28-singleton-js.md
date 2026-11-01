@@ -1,7 +1,7 @@
 ---
 title: "Singleton pattern in JavaScript"
 layout: post
-date: 2021-12-28 01:00
+date: 2021-12-28 01:00:00
 author: kt
 category: blog
 description: How to create restrict single instantiation of a class in JavaScript

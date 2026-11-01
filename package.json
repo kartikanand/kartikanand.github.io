@@ -1,0 +1,27 @@
+{
+  "name": "kartikanand.github.io",
+  "version": "2.0.0",
+  "description": "Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "dev": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kartikanand/kartikanand.github.io.git"
+  },
+  "keywords": [],
+  "author": "Kartik Anand",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kartikanand/kartikanand.github.io/issues"
+  },
+  "homepage": "https://github.com/kartikanand/kartikanand.github.io#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.7"
+  },
+  "dependencies": {
+    "@sindresorhus/slugify": "^3.0.1"
+  }
+}

@@ -1,5 +1,5 @@
 ---
-layout:
+permalink: "/{{ title | slugify }}/index.html"
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -8,26 +8,27 @@ layout:
     <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
     <meta name=viewport content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="V2BHNnTJQxvUbzc-7h7W8AauatZZ86TYHFT_ngjTk8s" />
+    <meta name="description" content="Kartik Anand's personal website featuring his professional portfolio, open-source projects, blogs and a collection of his favorite quotes. Learn more about his journey and skills">
+    <meta name="keywords" content="Kartik Anand, personal website, portfolio, open-source projects, blogs, quotes, professional journey, skills">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Kartik Anand">
+    
+    <title>#{{ title }} - kt</title>
 
-    <title>#{{ page.title }} - kt</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&family=Josefin+Sans&display=swap" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Fira+Mono" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
-
-    <style>
-    {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
-    {{ scss_sheet | scssify }}
-    </style>
-
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <div class="wrapper-large">
-        {% include header.html %}
+        {% capture title %}{{ title }}{% endcapture %}
+        {% render "header.html", title: title %}
 
         {{ content }}
 
-        {% include footer.html %}
+        {% render "footer.html" %}
     </div>
 </body>
 </html>
