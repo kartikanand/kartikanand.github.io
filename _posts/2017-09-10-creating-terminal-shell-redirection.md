@@ -1,15 +1,13 @@
 ---
 title: "Creating a Terminal shell - Redirecting Streams"
-layout: post
 date: 2017-09-10 09:00:00
-author: kt
-category: blog
+series: terminal-shell
 description: Adding the functionality of redirecting streams to our terminal shell
 ---
 
 > This post is in continuation to to our series on creating a terminal shell. You
 > can checkout the first post
-> [here](2017-08-13-creating-terminal-shell). In
+> [here](/creating-a-terminal-shell/). In
 > this post, we’ll add the ability to redirect streams for the programs we run
 > through our terminal shell.*
 

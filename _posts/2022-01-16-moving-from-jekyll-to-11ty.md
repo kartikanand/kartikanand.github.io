@@ -1,9 +1,6 @@
 ---
 title: "Moving from Jekyll to 11ty"
-layout: post
 date: 2023-01-16 01:00:00
-author: kt
-category: blog
 description: My experience of moving from Jekyll to 11ty for this blog.
 ---
 
